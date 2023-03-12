@@ -12,14 +12,14 @@ import List from "./components/2-9.List/List";
 function App() {
   return (
     <div className="App">
-      {/* <Composition />
+      <Composition />
       <Extraction />
       <ClassComponent />
       <ClassComponent2 />
       <FuntionalComponent />
       <Event />
       <Condition />
-      <List /> */}
+      <List />
       <ControlledComponent />
     </div>
   );

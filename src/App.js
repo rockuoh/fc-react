@@ -10,12 +10,12 @@ import Condition from "./components/2-8.ConditionalRendering/Condition";
 function App() {
   return (
     <div className="App">
-      {/* <Composition />
+      <Composition />
       <Extraction />
       <ClassComponent />
       <ClassComponent2 />
       <FuntionalComponent />
-      <Event /> */}
+      <Event />
       <Condition />
     </div>
   );

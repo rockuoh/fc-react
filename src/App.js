@@ -1,4 +1,5 @@
 import "./App.css";
+import ControlledComponent from "./components/2-10.ControlledComponent/ControlledComponent";
 import Composition from "./components/2-4.Props/Component";
 import Extraction from "./components/2-4.Props/Extraction/Extraction";
 import ClassComponent from "./components/2-5.State/ClassComponent";
@@ -11,14 +12,15 @@ import List from "./components/2-9.List/List";
 function App() {
   return (
     <div className="App">
-      <Composition />
+      {/* <Composition />
       <Extraction />
       <ClassComponent />
       <ClassComponent2 />
       <FuntionalComponent />
       <Event />
       <Condition />
-      <List />
+      <List /> */}
+      <ControlledComponent />
     </div>
   );
 }
